@@ -1,0 +1,43 @@
+.igo {
+    background-color: rgb(163, 247, 247);
+    border: 2px black dotted;
+}
+
+h1 {
+    color: white;
+    font: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h4 {
+    font: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    width: 600px;
+}
+
+body {
+    background-image: url("istockphoto-675074358-612x612.jpg");
+}
+
+.wit {
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#webview {
+    width: 350px;
+    height: 400px;
+    border: navy dashed 3px;
+}
+
+#webresult {
+    width: 350px;
+    height: 400px;
+    border: navy dashed 3px;
+}

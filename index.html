@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>Face Regocnition App!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <center>
+        <h1>Face Regocnition App!</h1>
+        <h3>Models is trained to Identify the following objects!</h3>
+        <h4 class="igo">Father</h4>
+        <h4 class="igo">Mother</h4>
+        <h4 class="igo">Brother</h4>
+        <h4 class="igo">Sisther</h4>
+        <br>
+        <h4 class="wit">Webcam View- </h4>
+        <br><br><br>
+        <div id="camera"></div>
+        <br>
+        <div id="result"></div>
+        <br>
+        <button onclick="Captureit()" class="btn btn-success">Capture Image!</button>
+        <br>
+        <button onclick="IdentifyThat()" class="btn btn-warning">Identify Image?</button>
+        <h3 id="objecti">Object:</h3>
+        <h3 id="accuracyi">Accuracy:</h3>
+
+    </center>
+
+</body>
+
+</html>
